@@ -5,6 +5,8 @@ WashtenawVoiceSOQ
 
 This project is the result of The Washtenaw Voice’s effort to make the Student Opinion Questionnaires open and available for students.  
 
+The official web site for this project is http://soq.washtenawvoice.com/
+
 Articles related to the subject can be found here:
 
 * http://www.washtenawvoice.com/2014/03/soqs-college-to-release-soqs/
@@ -42,7 +44,7 @@ The database is constructed in MySQL.  A visual model is available for further d
 ##Feature Set
 Initial Release:
 
-1. Create a search page where users can find the information on their instructor.  Have options to drill down into the data by term and class.
+1. Create a search page where users can find the information on their instructor.  Have options to drill down into the data by term and class. Users should be able to view results when just a class is selected and not an instructor - presenting a summary of all instructors who thaught that course.
 
 2. Display the data in a bar or line graph or chart to make it visually easy to compare results and trends.
 
