@@ -31,11 +31,13 @@ There are 3 kinds of SOQ’s with different question sets:
 * Distance Learning,
 * On-site/traditional class
 
-The college further divides the SOQ’s between part-time and full-time staff, however the question sets are not different. Therefore for the purposes of this project we will treat part-time and full-time staff as the same since that does not seem to have any relevancy for the student experience. We can change this by adding an additional field, however, instructors do change from being part-time versus full-time. Any feedback on this is welcome.
+The college further divides the SOQ’s between part-time and full-time staff, however the question sets are not different. Therefore for the purposes of this project we will treat part-time and full-time staff as the same since that does not seem to have any relevancy for the student experience. We can change this by adding an additional field, however, instructors do change from being part-time versus full-time. Any feedback on this is welcome.  (We should perhaps keep an eye on this to see if PT verses FT would have any disadvantage when compared to the College mean.)
 
 The SOQ summary data display’s the total numbers for each answer column. Students rate their instructors on a scale of 1-5. The summary data then provides a mean total of that data along with a mean total for the college followed by a standard deviation.
 
 We are only storing the cummulative mean given in the SOQ, not the detailed count from columns 1-5.  The mean is a float number between 1-5. We are not storing the standard deviation in the database since that can be calculated in our code.
+
+In some academic years there is a different number of questions in the set, and we will need to watch for the question numbers being different from the text.  We will need to assign our own question id and make sure that the datasets are paired by academic year. For example, there was a change in the survey between '11 and '12. 7/11/14 - I will upload more sample SOQ's.
 
 ##About the Database
 The database is constructed in MySQL.  A visual model is available for further details.
