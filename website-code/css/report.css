@@ -1,0 +1,41 @@
+/* 
+    Created on : Nov 10, 2014, 4:57:10 PM
+    Author     : Christina Fleming, cfleming@wccnet.edu
+*/
+
+.arrow {float: right;}
+ul.detail li {list-style: circle; margin-left: 20px; padding: 4px;}
+
+/*  Basic stucture
+=====================*/
+#accordion{margin:0 auto;width:600px;padding:10px;}
+#accordion ul{list-style:none;margin:0;padding:0;}
+.accordion{display:none;}
+.accordion:target{display:block;}
+#accordion ul li a{text-decoration:none;display:block;padding:10px;}
+.accordion{padding:4px;}
+
+/*  Colors 
+====================*/
+#accordion ul{
+/*box-shadow*/
+-webkit-box-shadow:0 4px 10px #BDBDBD;
+   -moz-box-shadow:0 4px 10px #BDBDBD;
+        box-shadow:0 4px 10px #BDBDBD;
+/*border-radius*/
+-webkit-border-radius:5px;
+   -moz-border-radius:5px;
+        border-radius:5px;
+}
+#accordion ul li a{
+background:#fff;
+border-bottom:1px solid #E0E0E0;
+color:black;
+}
+.accordion{
+background:#fdfdfd;
+color:black;
+}
+.accordion:target{
+border-top:3px solid #326e4c;
+}
